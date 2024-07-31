@@ -1,0 +1,76 @@
+* {box-sizing: border-box;
+margin: 0;
+border: 0;
+padding: 0px;
+}
+
+body > header {color: white; background-color: black;
+padding: 16px 0;}
+
+header .container {display: flex;justify-content: space-between}
+
+header li {display: inline-flex;}
+
+header li a {color: rgb(255, 255, 255);
+        margin: 8px;
+        font-weight: bold;
+        text-decoration: none;
+        margin-left: 16px;
+        font-family: Arial, Helvetica, sans-serif;}
+
+header li a:hover {text-decoration: underline;}
+
+.container {width: 1366px; margin: 0 auto;
+}
+
+.article {display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;}
+
+.article article img {height: 240px;
+        /*height: 180px; */
+        width: 100%;margin-top: 3%;}
+
+.article p {width: 300px;}
+
+.article article {width: 30%;margin-top: 10px;}
+
+.article article h3 {margin-top: 10px;margin-bottom: 10px;}
+
+section h2 {margin-top: 30px;font-size: 20pt;color: rgb(0, 0, 0);}
+
+section {padding: 10px 0;}
+
+section h2, .article ar {padding: 16px 0;}
+
+.article article a {background-color: rgb(255, 255, 255);
+        color:rgb(255, 255, 255);
+        padding: 8px;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 13px;
+        margin-top: 8px;
+}
+
+.article article a:hover {text-decoration: underline;}
+
+.article article p, .article article a
+{font-family: Arial, Helvetica, sans-serif;}
+
+.article article time {font-size: 12px;font-style: italic;}
+
+.article article h3 {font-size: 22px;}
+
+.article article h2 {font-size: 30px;}
+
+#Sports {background-color: rgb(158, 213, 149)}
+#Sports .article article a {background-color: rgb(73, 118, 66);}
+
+#Economy {background-color: rgb(202, 191, 120);}
+#Economy .article article a {background-color: gold;}
+
+#entretenimento {background-color: rgb(202, 143, 120);}
+#entretenimento .article article a {background-color: rgb(249, 145, 104);}
+
+#tecnologia {background-color: rgb(180, 114, 241);}
+#tecnologia .article article a {background-color: rgb(153, 63, 237);}
